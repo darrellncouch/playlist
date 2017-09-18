@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Playlist</title>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <!-- master css -->
+  <link rel="stylesheet" href="master.css">
+
+  </head>
+  <body>
+
+    <!-- nav bar -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper color">
+      </div>
+    </nav>
+  </div>
+
+  <!-- container -->
+  <div class="row rowFix">
+
+    <!-- leftSide -->
+    <div class="col s6 m6 l6 colFix" style="padding: 0px;">
+      <div class="card-panel" id="noborder">
+        <div class="col s12 m12 l12 center-align ">
+          <h3>track bin</h3>
+        </div>
+        <div class="card-action">
+          <div class="col s6 m6 l6 offset-l4 offset-m3 offset-s3">
+              <a href="playlist.html" class="btn waves-effect waves-light large grey darken-2 ">Choose Tracks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- right side -->
+    <div class="col s6 m6 l6">
+      <div class="col s6 m6 l6 pic colFix" style="padding: 0;">
+        <div class="col s4 m4 l4 offset-s1 offset-m3 offset-l4" id="album1">
+          <img id="topImg">
+        </div>
+        <div class="col s4 m4 l4 offset-s1 offset-m3 offset-l4" id="album2">
+          <img id="midImg">
+        </div>
+        <div class="col s4 m4 l4 offset-s1 offset-m3 offset-l4" id="album3">
+          <img id="botImg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <footer class="page-footer color">
+    <div class="container">
+      <div class="row rowFix">
+        <div class="col l6 s12">
+          <h5 class="grey-text text-lighten-4">©2017 Darrell Couch</h5>
+        </div>
+      </div>
+  </footer>
+  <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

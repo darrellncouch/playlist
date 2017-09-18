@@ -1,0 +1,107 @@
+@font-face {
+  font-family: thisFont;
+  src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+
+body{
+  font-family: thisFont;
+}
+
+.color{
+  background: #90907f
+}
+
+.pic{
+  background: url(./resources/fadedTrackcropped.jpg) no-repeat center center;
+    background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  min-width: 100%;
+
+}
+
+.rowFix{
+  margin-bottom: 0;
+}
+
+.colFix{
+  margin: 0;
+}
+
+.s4{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  min-width: 220px;
+  height: 220px;
+
+}
+ h3{
+   color: purple;
+   margin-top: 40%;
+   font-style: bold;
+   font-size: 75px;
+ }
+
+ #noborder{
+   border: none;
+   box-shadow: none;
+ }
+
+img{
+  width: 220px;
+  height: 220px;
+}
+
+#playlistNavSize{
+  height: 150px;
+}
+
+.bottom-align{
+  position: fixed;
+  bottom: 0px;
+  left: 50px;
+
+}
+
+.border{
+  border: 1px solid black;
+  height: 200px;
+}
+
+#footerFix{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#spacing{
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.imgSizing {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  display: inline-block;
+}
+#imgContainer{
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+#scrolly{
+  overflow-y: scroll;
+}
+
+#clear, #submit{
+  margin: 10px;
+}

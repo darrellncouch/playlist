@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Playlist Bin</title>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <!-- master css -->
+  <link rel="stylesheet" href="master.css">
+
+  </head>
+  <body>
+
+    <!-- nav bar -->
+    <nav  id="playlistNavSize">
+      <div class="nav-wrapper color" >
+        <a href="#" class="brand-logo bottom-align">click an album to add its track to the bin</a>
+      </div>
+    </nav>
+
+  <!-- page content -->
+  <div class="row rowFix">
+
+    <!-- album bar -->
+    <div class="border" id="imgContainer">
+
+    </div>
+
+    <!-- selected information area -->
+    <div class="col s8 m8 l8 offset-l2 offset-m2 offset-s2" id="spacing">
+      <div class="card grey lighten-2 border" id="scrolly" >
+        <div class="card-content" id="info">
+
+        </div>
+      </div>
+      <a  class="btn black white-text s8" id="clear">Clear tracks</a>
+      <a href="#" class="btn black white-text s8" id="submit">Submit bin</a>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <footer class="page-footer color" id="footerFix" >
+    <div class="container">
+      <div class="row rowFix">
+        <div class="col l6 s12">
+          <h5 class="grey-text text-lighten-4">©2017 Darrell Couch</h5>
+        </div>
+      </div>
+  </footer>
+  <script type="text/javascript" src="playlist.js"></script>
+  </body>
+</html>
